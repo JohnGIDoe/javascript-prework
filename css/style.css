@@ -1,4 +1,3 @@
-
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -8,10 +7,14 @@ body {
 }
 
 .container {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   max-width: 1140px;
   height: 600px;
   margin: 100px auto;
@@ -23,3 +26,4 @@ h1 {
   background-color: transparent;
   color: #ffff;
 }
+/*# sourceMappingURL=style.css.map */
