@@ -17,7 +17,7 @@ body {
   -ms-flex-align: center;
       align-items: center;
   max-width: 1140px;
-  height: 600px;
+  height: 700px;
   margin: 100px auto;
   background-color: #252425;
   border-radius: 20%;
@@ -30,7 +30,7 @@ body {
   left: 20px;
   background-color: #252425;
   width: 1140px;
-  height: 600px;
+  height: 700px;
   content: '';
   opacity: 0.5;
   border-radius: 20%;
@@ -58,6 +58,13 @@ body {
   border-radius: 50%;
   outline: none;
   cursor: pointer;
+}
+
+.container #result {
+  height: 100px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 28px;
 }
 
 .container #messages {
